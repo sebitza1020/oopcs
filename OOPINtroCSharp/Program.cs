@@ -11,6 +11,7 @@ namespace OOPINtroCSharp
         static void Main(string[] args)
         {
             Persoana p = new Persoana();
+            p.ConsoleWrite();
         }
     }
 }
