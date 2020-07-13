@@ -2,7 +2,7 @@
 
 namespace OOPINtroCSharp
 {
-    internal class Persoana
+    internal class Persoana:IHasExport
     {
         protected string name;
         protected int yearOfBirth;
@@ -22,6 +22,11 @@ namespace OOPINtroCSharp
         public virtual void ConsoleWrite()
         {
             Console.WriteLine("->" + name + " - " + yearOfBirth);
+        }
+
+        public void Export()
+        {
+            Console.WriteLine("Am exportat persoana: " + name);
         }
     }
 }

@@ -18,17 +18,18 @@ namespace OOPINtroCSharp
             Student w = new Student("Dorel", 2008, "litere");
 
 
-            List<Persoana> listaPersoane = new List<Persoana>();
-            listaPersoane.Add(p);
-            listaPersoane.Add(q);
-            listaPersoane.Add(e);
-            listaPersoane.Add(f);
-            listaPersoane.Add(s);
-            listaPersoane.Add(w);
+            List<IHasExport> l = new List<IHasExport>();
+            l.Add(p);
+            l.Add(q);
+            l.Add(e);
+            l.Add(f);
+            l.Add(s);
+            l.Add(w);
+            l.Add(new Masina());
 
-            foreach(Persoana pers in listaPersoane)
+            foreach(IHasExport obiect in l)
             {
-                pers.ConsoleWrite();
+                obiect.Export();
             }
 
         }

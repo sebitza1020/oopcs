@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPINtroCSharp
 {
-    class Student:Persoana
+    class Student:Persoana, IHasExport
     {
         private string facultate;
 
@@ -23,6 +23,11 @@ namespace OOPINtroCSharp
         public override void ConsoleWrite()
         {
             Console.WriteLine(name + " - " + yearOfBirth + " - " + facultate);
+        }
+
+        public new void Export()
+        {
+            Console.WriteLine("Am exportat studentul: " + name);
         }
     }
 }
