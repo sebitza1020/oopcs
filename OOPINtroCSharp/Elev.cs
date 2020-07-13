@@ -8,10 +8,23 @@ namespace OOPINtroCSharp
 {
     class Elev : Persoana
     {
-        public Elev()
+        private int nota;
+        private string scoala;
+        public Elev():base("Default elev", 2010)
         {
-            //name = "Default elev";
-            //yearOfBirth = 2008;
+            nota = 8;
+            scoala = "Scoala Gimnaziala nr. 21";
+        }
+
+        public Elev(string name, int yearOfBirth, int nota, string scoala):base(name, yearOfBirth)
+        {
+            this.nota = nota;
+            this.scoala = scoala;
+        }
+
+        public void ConsoleWrite()
+        {
+            Console.WriteLine(name + " - " + yearOfBirth + " - " + scoala + " - " + nota);
         }
     }
 }
