@@ -4,8 +4,8 @@ namespace OOPINtroCSharp
 {
     internal class Persoana
     {
-        private string name;
-        private int yearOfBirth;
+        protected string name;
+        protected int yearOfBirth;
 
         public Persoana()
         {
