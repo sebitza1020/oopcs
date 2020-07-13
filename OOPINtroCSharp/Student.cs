@@ -20,7 +20,7 @@ namespace OOPINtroCSharp
             this.facultate = facultate;
         }
 
-        public void ConsoleWrite()
+        public override void ConsoleWrite()
         {
             Console.WriteLine(name + " - " + yearOfBirth + " - " + facultate);
         }

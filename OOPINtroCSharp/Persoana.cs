@@ -19,9 +19,9 @@ namespace OOPINtroCSharp
             this.yearOfBirth = yearOfBirth;
         }
 
-        internal void ConsoleWrite()
+        public virtual void ConsoleWrite()
         {
-            Console.WriteLine(name + " - " + yearOfBirth);
+            Console.WriteLine("->" + name + " - " + yearOfBirth);
         }
     }
 }

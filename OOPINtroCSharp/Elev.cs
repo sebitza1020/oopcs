@@ -22,7 +22,7 @@ namespace OOPINtroCSharp
             this.scoala = scoala;
         }
 
-        public void ConsoleWrite()
+        public override void ConsoleWrite()
         {
             Console.WriteLine(name + " - " + yearOfBirth + " - " + scoala + " - " + nota);
         }
