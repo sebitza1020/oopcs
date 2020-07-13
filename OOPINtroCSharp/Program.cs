@@ -10,6 +10,8 @@ namespace OOPINtroCSharp
     {
         static void Main(string[] args)
         {
+            Student student = new Student();
+            student.ConsoleWrite();
         }
     }
 }
