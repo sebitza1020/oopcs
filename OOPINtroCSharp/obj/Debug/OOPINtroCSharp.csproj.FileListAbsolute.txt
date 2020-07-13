@@ -1,0 +1,7 @@
+C:\Users\munte\OneDrive\Desktop\Facultate\An2\Practica Facultate\oopcs\OOPINtroCSharp\bin\Debug\OOPINtroCSharp.exe.config
+C:\Users\munte\OneDrive\Desktop\Facultate\An2\Practica Facultate\oopcs\OOPINtroCSharp\bin\Debug\OOPINtroCSharp.exe
+C:\Users\munte\OneDrive\Desktop\Facultate\An2\Practica Facultate\oopcs\OOPINtroCSharp\bin\Debug\OOPINtroCSharp.pdb
+C:\Users\munte\OneDrive\Desktop\Facultate\An2\Practica Facultate\oopcs\OOPINtroCSharp\obj\Debug\OOPINtroCSharp.csprojAssemblyReference.cache
+C:\Users\munte\OneDrive\Desktop\Facultate\An2\Practica Facultate\oopcs\OOPINtroCSharp\obj\Debug\OOPINtroCSharp.csproj.CoreCompileInputs.cache
+C:\Users\munte\OneDrive\Desktop\Facultate\An2\Practica Facultate\oopcs\OOPINtroCSharp\obj\Debug\OOPINtroCSharp.exe
+C:\Users\munte\OneDrive\Desktop\Facultate\An2\Practica Facultate\oopcs\OOPINtroCSharp\obj\Debug\OOPINtroCSharp.pdb
