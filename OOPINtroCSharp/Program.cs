@@ -21,6 +21,12 @@ namespace OOPINtroCSharp
 
             Elev f = new Elev("Hoko", 1999, 5, "Scoala vietii");
             f.ConsoleWrite();
+                
+            Student s = new Student();
+            s.ConsoleWrite();
+
+            Student w = new Student("Dorel", 2008, "litere");
+            w.ConsoleWrite();
         }
     }
 }
