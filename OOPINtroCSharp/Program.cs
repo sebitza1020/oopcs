@@ -12,6 +12,9 @@ namespace OOPINtroCSharp
         {
             Persoana p = new Persoana();
             p.ConsoleWrite();
+
+            Persoana q = new Persoana("Michael", 7);
+            q.ConsoleWrite();
         }
     }
 }
